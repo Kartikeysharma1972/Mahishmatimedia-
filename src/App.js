@@ -13,6 +13,7 @@ import MediaKit from "@/pages/MediaKit";
 import Insights from "@/pages/Insights";
 import Contact from "@/pages/Contact";
 import TrainBoard from "@/pages/TrainBoard";
+import GroupMediaInventory from "@/pages/GroupMediaInventory";
 
 function App() {
   return (
@@ -24,6 +25,7 @@ function App() {
           <Route path="/about" element={<About />} />
           <Route path="/locations" element={<Locations />} />
           <Route path="/media-assets" element={<MediaAssets />} />
+          <Route path="/group-media" element={<GroupMediaInventory />} />
           <Route path="/case-studies" element={<CaseStudies />} />
           <Route path="/government" element={<Government />} />
           <Route path="/media-kit" element={<MediaKit />} />

@@ -112,6 +112,19 @@ export default function MediaAssets() {
           <p className="text-xl text-white/70 max-w-3xl leading-relaxed">
             Strategic visibility infrastructure designed for brand domination at high-traffic transit touchpoints
           </p>
+          <div className="mt-10 p-6 border border-gold/30 bg-gold/5 max-w-3xl">
+            <p className="text-sm text-white/80 leading-relaxed mb-4">
+              <span className="text-gold font-bold uppercase tracking-wider text-xs">Full network</span>
+              {" — "}
+              Digital and static inventory across all group companies (bus, rail, metro, trains) is summarized on one page under Mahishmati Media.
+            </p>
+            <Link
+              to="/group-media"
+              className="rounded-none bg-gold text-black font-bold uppercase tracking-wider hover:bg-[#AA8C2C] transition-all px-6 py-3 text-xs inline-flex items-center"
+            >
+              View group media inventory <ArrowRight className="ml-2" size={14} />
+            </Link>
+          </div>
         </motion.div>
 
         <div className="space-y-24">

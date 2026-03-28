@@ -21,6 +21,7 @@ export const Navigation = () => {
     { name: 'About', path: '/about' },
     { name: 'Locations', path: '/locations' },
     { name: 'Media Assets', path: '/media-assets' },
+    { name: 'Group Media', path: '/group-media' },
     { name: 'Case Studies', path: '/case-studies' },
     { name: 'Government & Compliance', path: '/government' },
     { name: 'Media Kit', path: '/media-kit' },
